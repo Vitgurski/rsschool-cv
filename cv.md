@@ -8,21 +8,20 @@
 
   header {
     background-color: black;
-  }
+      }
 
   body {
     background-color: black;
-
   }
-
+  
   nav a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
   ul {
     display: flex;
-    background-color: #949492;
+    background-color: rgb(209, 206, 206);;
     list-style: none; 
     font-size: 30px;
  }
@@ -37,20 +36,31 @@ nav li {
   }
 
  .name {
-    background: #949492;
-    Color: white;
+    background: rgb(209, 206, 206);;
+    Color: rgb(0, 0, 0);
     font-size: 30px;
     
   }
   .round {
     border-radius: 350px; 
-    border: 10px solid rgb(177, 175, 175); 
+    border: 10px solid rgb(209, 206, 206);; 
     box-shadow: 0 0 10px #c0c0c0; 
    }
+
+   footer {
+    display: flex;
+    background-color: rgb(209, 206, 206);
+    justify-content: center;
+  }
+
+ .footer {
+    font-size: 60px;
+    font-weight: 600;
+    margin-right: 80px;
+    margin-left: 80px;
+  }
    
-   .right {
-  text-align: right;
-}
+
 
 </style>
 </head>
@@ -58,13 +68,13 @@ nav li {
 <body>
 
     <header>
-              <nav>
+            <nav>
           <ul class="menu">
-            <li><a href="/">ABOUT ME</a></li>
-            <li><a href="/">CODE</a></li>
-            <li><a href="/">PROGECTS</a></li>
-            <li><a href="/">SKILS</a></li>
-            <li><a href="/">CONTACTS</a></li>
+            <li><a href="#ABOUT ME">ABOUT ME</a></li>
+            <li><a href="#CODE">CODE</a></li>
+            <li><a href="#PROGECTS">PROGECTS</a></li>
+            <li><a href="#SKILS">SKILS</a></li>
+            <li><a href="#CONTACTS">CONTACTS</a></li>
           </ul>
           
       </nav>
@@ -75,18 +85,53 @@ nav li {
           <h1>VITALIY GURSKI</h1>
           <h2>Front-end web developer (Beginner)</h2>
                     <img src="https://avatars.githubusercontent.com/u/135865000?s=400&u=ee2334468d98e1236505444f2f8cfff05e3b5974&v=4" width="700" height="700" alt="@Vitgurski" class="round">
-          <p class="right">Hello everyone, I am 30 years old. Currently I work as an engineer at the plant, but I strive to gain new knowledge and experience.</p>
-   
-       
-         
-        </div>
+                     </div>
 
-      
+           <div class="name"> 
+            <h2>ABOUT ME</h2>
+            <h3>Hello everyone, I am 30 years old. Currently I work as an engineer at the plant, but I strive to gain new knowledge and experience.</h3>
+             </div>
+
+             <div class="name"> 
+              <h2>CODE</h2>
+              <pre>Some code Some code Some code Some code Some code</pre>
+              <pre>Some code Some code Some code Some code Some code </pre>
+               </div>
+
+               <div class="name"> 
+                <h2>PROGECT</h2>
+                <p>Some progect Some progect Some progect Some progect Some progect</p>
+                 </div>
+
+                 <div class="name"> 
+                  <h2>SKILS</h2>
+                  <p>HTML, CSS</p>
+                   </div>
+                 
+                  <div class="name"> 
+                   <h2>CONTACTS</h2>
+                   <h3> email:vitaliygurski@gmail.com</H3>
+                    <h3> tel:+375447025106</H3>
+                     </div>
+                     <div class="name"> 
+                      <h2>LANGUAGES</h2>
+                      <h3> English - A1</H3>
+                        <h3> Belorussian</H3>
+                        <h3> Russian</H3>
+                         </div>
+
+ 
 
       </main>
-      
+     
       <footer>
-      
+      <a href="https://rs.school/js/">
+      <img src="https://rs.school/images/rs_school_js.svg" width="200" height="200" alt="@Vitgurski">
+    </a>
+    <p class="footer">2023</p>
+    <a href="https://github.com/Vitgurski">
+      <img src="https://cdn.icon-icons.com/icons2/509/PNG/512/Github_icon-icons.com_49946.png" width="200" height="200" alt="GitHub">
+    </a>
       </footer>
 </body>
 
