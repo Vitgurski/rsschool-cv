@@ -9,7 +9,7 @@ body {
     margin-right: auto;
     margin-top: 0%;
     width: 100%;
-    background-color: azure;
+    background-color: rgb(120, 126, 126);
     }
 
     header {
@@ -29,8 +29,10 @@ body {
 
     footer {
         display: flex;
+        justify-content: space-evenly;
+        align-items: center;
         width: 1440px;
-        height: 90px;
+        height: 100px;
         background: #0C0C0E;
        
     }
@@ -47,7 +49,7 @@ body {
     }
 
     .CV:hover {
-        color: #55eeda;
+        color: #5b5c5c;
         cursor: pointer;
         transition: all .5s ease;
 
@@ -59,7 +61,7 @@ body {
     }
 
     .a2:hover {
-        color: #55eeda;
+        color: #5b5c5c;
         cursor: pointer;
         transition: all .5s ease;
 
@@ -111,7 +113,8 @@ body {
     }
 
     .a1:hover {
-        color: #55eeda;
+        color: #5b5c5c;
+       
         
         transition: all .5s ease;
     }
@@ -215,3 +218,20 @@ body {
         background: #ffffff;
         font-size: 1.5rem;
     }
+
+    .year {
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 800;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .year:hover {
+        transition: all .5s ease;
+        color: #5b5c5c;
+       
+ 
+    }
+
+   
