@@ -24,7 +24,7 @@ body {
         display: flex;
         justify-content: space-between;
         width: 1440px;
-        height: 1600px;
+        height: 1620px;
         background: #ffffff;
     }
 
@@ -187,7 +187,7 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: b;
+        
         width: 317px;
         align-items: baseline;
         background: #ffffff;
