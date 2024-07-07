@@ -1,14 +1,15 @@
 html {
     scroll-behavior: smooth;
+    
   }
 
 body {
-  
-    max-width: 1440px;
+    overflow-x: hidden;
+    width: 1440px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0%;
-    width: 100%;
+  
     background-color: rgb(120, 126, 126);
     }
 
