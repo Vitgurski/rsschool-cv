@@ -90,7 +90,7 @@ body {
         
     }
     
-    ul {
+    .ul1 {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -188,7 +188,7 @@ body {
         flex-direction: row;
         justify-content: space-between;
         
-        width: 317px;
+        width: 485px;
         align-items: baseline;
         background: #ffffff;
         font-size: 1.5rem;
@@ -200,7 +200,7 @@ body {
         flex-direction: row;
         justify-content: space-between;
         word-wrap: break-word;
-        width: 924px;
+        width: 510px;
         align-items: baseline;
         background: #ffffff;
         font-size: 1.5rem;
@@ -214,8 +214,8 @@ body {
         flex-direction: row;
         justify-content: space-between;
         word-wrap: break-word;
-        width: 475px;
-       
+        width: 500px;
+       align-items: baseline;
         background: #ffffff;
         font-size: 1.5rem;
     }
@@ -233,6 +233,31 @@ body {
         color: #5b5c5c;
        
  
+    }
+
+    .Progects {
+        display: flex;
+       
+        text-decoration: none;
+        color: #000000;
+    }
+    .Progects:hover {
+        transition: all .6s ease;
+        color: #adb1b1;;
+    }
+    .Skils {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+        color: #000000;
+        height: 90px;
+        font-weight: 400;
+       font-size: 30px;
+       line-height: 50px;
+       margin: 0;
+       padding: 0%;
     }
 
    
