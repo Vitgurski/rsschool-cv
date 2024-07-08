@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>VitaliyGurskiCV</title>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -9,31 +10,111 @@
 
 <header>
     <div class="headermenu">
-    <h1 class="CV">CV</h1>
-    <nav >
-        <ul id="href">
-             <li><a href="#About Me" class="a1">About Me</a></li>
-             <li><a href="#Code" class="a1" >Code</a></li>
-             <li><a href="#Skils" class="a1" >Skils</a></li>
-             <li><a href="#Progects" class="a1" >Progects</a></li>
-             <li><a href="#Contacts" class="a1" >Contacts</a></li>
+    <h1 class="CV"><a href="https://vitgurski.github.io/rsschool-cv/" class="a2"></a>CV</h1>
+    <nav>
+        <ul id="href" class="ul1">
+             <li><a href="#AboutMe" class="a1">About Me</a></li>
+             <li><a href="#Code" class="a1">Code</a></li>
+             <li><a href="#Skils" class="a1">Skils</a></li>
+             <li><a href="#Progects" class="a1">Progects</a></li>
+             <li><a href="#Contacts" class="a1">Contacts</a></li>
            </ul> 
+           </nav>
         </div>
 </header>
 
 <main>
 <div class="section1">
-    <img src="./Photo.jpg" width="496" height="1400" alt="image1">
+    <div><img src="./Photo.jpg" width="496" height="1400" alt="image1">
+        <div class="Education">
+            <p><b>Education</b> - Mogilev State University of Food<br>(Engineer)<br><br><b>English level</b> - A1</p>
+        </div>
+    </div>
+    
 </div>
-<div class="section2">
 
-</div>
+<div class="Description">
+    <div class="section2">
+        <h2>Vitaliy<br>Gurski<br>Front-end web developer (Beginner)</h2>
+    </div>
+    
+    <div class="section3">
+    <h2><a id="AboutMe"></a>About Me</h2>
+    <P>Hi, I'm a beginner front end developer. I love to learn something new and study. Currently, I have an education as an engineer, but I want to change my type of activity, which is why I came to study at Rolling Scopes School.</P>
+    </div>
+
+    <div class="section4">
+        <h2><a id="Code"></a>Code</h2>
+        <P>This is my small code example</P>
+        <pre class="Code">
+            document.addEventListener("DOMContentLoaded", function () {
+                document.getElementById("burger").addEventListener("click", function(){
+                    document.querySelector("nav").classList.toggle("open")
+                    document.querySelector(".lineburger1").classList.toggle("lineburger4")
+                    document.querySelector(".lineburger2").classList.toggle("lineburger5")
+                    document.querySelector(".lineburger3").classList.toggle("lineburger6")
+                })
+            })
+            document.getElementById("menu").addEventListener("click", Event=> {
+                Event._isClickWithInmenu = true;
+            })
+            document.getElementById("burger").addEventListener("click", Event=> {
+                Event._isClickWithInmenu = true;
+            })
+            
+            document.body.addEventListener("click", Event => {
+                if (Event._isClickWithInmenu) return;
+                document.querySelector("nav").classList.remove("open")
+                document.querySelector(".lineburger1").classList.remove("lineburger4")
+                document.querySelector(".lineburger2").classList.remove("lineburger5")
+                document.querySelector(".lineburger3").classList.remove("lineburger6")
+            })
+            
+            document.getElementById("href").addEventListener("click", function(){
+                document.querySelector("nav").classList.remove("open")
+                document.querySelector(".lineburger1").classList.remove("lineburger4")
+                document.querySelector(".lineburger2").classList.remove("lineburger5")
+                document.querySelector(".lineburger3").classList.remove("lineburger6")
+            })
+        </pre>
+        </div>
+    
+
+        <div class="section5">
+            <h2><a id="Skils"></a>Skils</h2>
+            <div>
+                <ul class="Skils">
+                    <li>HTML</li> 
+                     <li>CSS</li> 
+                     <li>JS</li>
+                 </ul>
+            </div>
+                </div>
+
+                <div class="section6">
+                    <h2><a id="Progects"></a>Progects</h2>
+                    <div><a href="https://vitgurski.github.io/rsschool-cv/" class="Progects">My first and only project is this CV</a></div>
+                    
+                        </div>
+
+                        <div class="section7">
+                            <h2><a id="Contacts"></a>Contacts</h2>
+                            <div><ul>
+                                <li>Email: vitaliygurski@gmail.com</li>
+                                <li>Tel. +375447025106</li>
+                            </ul>
+                        </div>
+                            
+                                </div>
 
 
+                            </div>
 </main>
 
 <footer>
-
+<div><a href="https://rs.school/courses/javascript-preschool-ru"><img src="./channels4_profile.jpg" width="100" height="90" alt="logo"></a></div>
+<div class="year"><a href="https://rs.school/courses/javascript-preschool-ru" class="year">The Rolling Scopes School 2024</a></div>
+<div><a href="https://github.com/Vitgurski"><img src="./icons8-github.svg" width="100" height="100" alt="svg"></a></div>
 </footer>
 
 

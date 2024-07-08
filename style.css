@@ -1,12 +1,16 @@
+html {
+    scroll-behavior: smooth;
+    
+  }
+
 body {
-  
-    max-width: 1440px;
+    overflow-x: hidden;
+    width: 1440px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0%;
-    width: 100%;
-    background-color: azure;
-
+  
+    background-color: rgb(120, 126, 126);
     }
 
     header {
@@ -18,15 +22,18 @@ body {
 
     main {
         display: flex;
+        justify-content: space-between;
         width: 1440px;
-        height: 1400px;
+        height: 1620px;
         background: #ffffff;
     }
 
     footer {
         display: flex;
+        justify-content: space-evenly;
+        align-items: center;
         width: 1440px;
-        height: 90px;
+        height: 100px;
         background: #0C0C0E;
        
     }
@@ -38,11 +45,24 @@ body {
         color: #FFFFFF;
         width: 150px;
         font-weight: 400;
+       
 
     }
 
     .CV:hover {
-        color: #55eeda;
+        color: #5b5c5c;
+        cursor: pointer;
+        transition: all .5s ease;
+
+    }
+
+    .a2 {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .a2:hover {
+        color: #5b5c5c;
         cursor: pointer;
         transition: all .5s ease;
 
@@ -70,7 +90,7 @@ body {
         
     }
     
-    ul {
+    .ul1 {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -94,7 +114,8 @@ body {
     }
 
     .a1:hover {
-        color: #55eeda;
+        color: #5b5c5c;
+       
         
         transition: all .5s ease;
     }
@@ -102,13 +123,141 @@ body {
     .section1 {
         display: flex;
         width: 496px;
-        height: 1400px;
+      
         background: #ffffff;
+    }
+
+    .Education {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+       
+        align-items: baseline;
+        background: #ffffff;
+        font-size: 1.5rem;
+
+    }
+
+
+    .Description {
+        display: flex;
+        flex-direction: column;
+        
+        
     }
 
     .section2 {
         display: flex;
-        width: 944px;
-        height: 200px;
+        align-items: center;
+        width: 924px;
+        
         background: #ffffff;
+        font-size: 2rem;
+        margin: 0;
+        
     }
+
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        width: 924px;
+        
+        background: #ffffff;
+        font-size: 1.5rem;
+        
+      
+    }
+
+    .section4 {
+        display: flex;
+        flex-direction: column;
+        width: 924px;
+      
+        background: #ffffff;
+        font-size: 1.5rem;
+      
+    }
+    .Code {
+        font-size: 1rem;
+    }
+
+    .section5 {
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        width: 485px;
+        align-items: baseline;
+        background: #ffffff;
+        font-size: 1.5rem;
+       
+    }
+    .section6 {
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        word-wrap: break-word;
+        width: 510px;
+        align-items: baseline;
+        background: #ffffff;
+        font-size: 1.5rem;
+       
+    }
+
+    .section7
+    {
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        word-wrap: break-word;
+        width: 500px;
+       align-items: baseline;
+        background: #ffffff;
+        font-size: 1.5rem;
+    }
+
+    .year {
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 800;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .year:hover {
+        transition: all .6s ease;
+        color: #5b5c5c;
+       
+ 
+    }
+
+    .Progects {
+        display: flex;
+       
+        text-decoration: none;
+        color: #000000;
+    }
+    .Progects:hover {
+        transition: all .6s ease;
+        color: #adb1b1;;
+    }
+    .Skils {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+        color: #000000;
+        height: 90px;
+        font-weight: 400;
+       font-size: 30px;
+       line-height: 50px;
+       margin: 0;
+       padding: 0%;
+    }
+
+   
